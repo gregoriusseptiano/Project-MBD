@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8665DE2-78A2-A773-3F31-34DF5EF3A248" containerWithKeyObject="8281942C-74A8-AFF5-88BF-CB9343627751" localFKIndex="8BC0F008-58CF-5D22-84F7-7F1491DAB29D" name="kunjungan_Pasien_FK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>BA51A710-9825-1022-B2B8-392F0CDE95C3</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<referredTableLongName>Pasien</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B13F9DFB-7CD1-F20F-5B68-F5C911656A2D</referredTableID>
+<keyObject>ED4B1503-9D8F-0C8B-2489-F7CCCA40C9DC</keyObject>
+<referredKeyID>ED4B1503-9D8F-0C8B-2489-F7CCCA40C9DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIK</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

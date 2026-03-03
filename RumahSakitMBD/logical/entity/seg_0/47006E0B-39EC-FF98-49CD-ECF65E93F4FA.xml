@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47006E0B-39EC-FF98-49CD-ECF65E93F4FA" name="Ruang">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:30:55 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nomor" id="9FA87A74-4CB1-03CA-B8B2-50185146BF5B">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:31:04 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Ruang" id="D275D373-2625-C637-2A9C-85F24D83C85B">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:31:31 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fasilitas" id="D920E362-3954-4F75-BA01-55F0683C9D61">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:31:50 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CEB1C2D-645B-27F3-2FEF-1B54379C3444" name="Ruang PK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:31:23 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FA87A74-4CB1-03CA-B8B2-50185146BF5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

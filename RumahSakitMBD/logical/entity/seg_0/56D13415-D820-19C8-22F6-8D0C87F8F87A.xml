@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56D13415-D820-19C8-22F6-8D0C87F8F87A" name="kunjungan">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:20:40 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="229BC00F-9761-0497-3EC9-0B9A1B476FDE">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:21:01 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_pemeriksaan" id="D4B78CEE-0AC5-14FF-73F1-5AF3CE0B0A76">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:21:46 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diagnosis" id="34963369-81DE-6AEC-A02B-0048B3D8CE17">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:22:17 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resep" id="74FC6545-C414-AE2F-DAEF-C13C535B397D">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:22:40 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="638C3FF5-5792-D6C7-C710-412541D962D3">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:13:41 UTC</createdTime>
+<generatorID>2E447F83-8FE5-6C2D-AB44-CE672F70C528</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<referedAttribute>985531F4-36F9-1AB4-D53E-640D948ABC4B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIK" id="10D60B25-D894-B87C-AB0E-2E70254C23D0">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:14:04 UTC</createdTime>
+<generatorID>BA51A710-9825-1022-B2B8-392F0CDE95C3</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<referedAttribute>6A382C6F-ABEC-436E-6CEC-012AEFA8C4E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="251B7070-CD43-A850-6F5D-31ECAD04A13A">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:14:28 UTC</createdTime>
+<generatorID>3C5FCA25-B191-7379-6A95-937506A03CA9</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<referedAttribute>D9156DB8-7284-35F0-A243-87935F81612B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor" id="903AD1AC-357A-CFEC-37CB-8E7EDC21BF07">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:14:55 UTC</createdTime>
+<generatorID>F66CDCC8-76B2-83EB-9A52-CB7F2A4892D0</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<referedAttribute>9FA87A74-4CB1-03CA-B8B2-50185146BF5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CE0E551-FAE1-ABD1-BA13-12271F9965C1" name="kunjungan PK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:22:10 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>229BC00F-9761-0497-3EC9-0B9A1B476FDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A62A703C-76E3-32C4-CAA4-D10AF33A7E15" name="Perawat">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:28:41 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D9156DB8-7284-35F0-A243-87935F81612B">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:28:49 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="BC68BD86-DDE7-FA83-C8B5-6BF1FCCB2DC6">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:29:07 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis_Kelamin" id="62D604CA-0E69-AF4C-C69A-3B02D46E32C0">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:29:45 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor_HP" id="17B5331E-BBB5-CDF9-921F-CFB630457228">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:30:04 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat" id="5F9D3901-7EEA-6FA5-AD1A-D6469C27C3AD">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:30:33 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FD4DB7A-D2CC-7BCD-47D0-AA44DE67EB54" name="Perawat PK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 04:29:05 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9156DB8-7284-35F0-A243-87935F81612B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="21E534FA-91AC-16F9-C5C7-8B733CE5F4FB" name="Key_2">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-27 03:29:02 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<engineerTo>
+<item key="93457802-C884-3236-C749-945462C18075" value="true"/>
+</engineerTo>
+<deprecated>true</deprecated>
+<newElementsIDs>17B5331E-BBB5-CDF9-921F-CFB630457228</newElementsIDs>
+<usedAttributes>
+<attributeRef>17B5331E-BBB5-CDF9-921F-CFB630457228</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

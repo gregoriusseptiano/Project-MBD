@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8281942C-74A8-AFF5-88BF-CB9343627751" name="kunjungan">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>56D13415-D820-19C8-22F6-8D0C87F8F87A</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5108065D-1420-120E-20EC-5772113A20E1">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>229BC00F-9761-0497-3EC9-0B9A1B476FDE</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pemeriksaan" id="15202A84-5856-18A9-71FE-7F532F217DB7">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>D4B78CEE-0AC5-14FF-73F1-5AF3CE0B0A76</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diagnosis" id="F3559D7A-7A8A-EBD7-CEF1-721A0217EDF6">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>34963369-81DE-6AEC-A02B-0048B3D8CE17</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resep" id="96995FBD-13A5-0893-1880-F832B767020F">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>74FC6545-C414-AE2F-DAEF-C13C535B397D</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dokter_id" id="925F3B47-D624-8324-EBCE-21BD0DC9BE23">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>638C3FF5-5792-D6C7-C710-412541D962D3</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8DEF02D-A496-B00E-7B65-59B2703869BF" referredColumn="00C87C3D-3E6E-3119-2B22-866A42DDAEAA"/>
+</associations>
+</Column>
+<Column name="Pasien_id" id="95B04A46-A22A-FC7E-FEE5-684D699D3AC1">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>10D60B25-D894-B87C-AB0E-2E70254C23D0</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8665DE2-78A2-A773-3F31-34DF5EF3A248" referredColumn="528A8DCE-8C65-0B8F-7582-24C038DE0030"/>
+</associations>
+</Column>
+<Column name="Perawat_id" id="408A41D4-148B-27F9-985F-5CFAA5B9BF22">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>251B7070-CD43-A850-6F5D-31ECAD04A13A</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6B32EE2-4AA4-492F-8C62-7D710BAA6611" referredColumn="2CCF506E-8FDB-80E5-D962-E98E5DFFAA78"/>
+</associations>
+</Column>
+<Column name="Ruang_id" id="A55007EF-6359-188A-D378-012ABF314E3C">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>903AD1AC-357A-CFEC-37CB-8E7EDC21BF07</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E93AF83-BF7C-3137-44AC-3CFA85D101C6" referredColumn="5B65B9D4-099F-FB7C-4102-6D084B92EC1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FB3FE11-C483-A746-6EA9-36D20979F7B9" name="kunjungan_PK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>5CE0E551-FAE1-ABD1-BA13-12271F9965C1</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5108065D-1420-120E-20EC-5772113A20E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE5F1F12-610F-1B92-BDDB-6C86E0B2A18C" name="kunjungan_Dokter_FK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>2E447F83-8FE5-6C2D-AB44-CE672F70C528</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="925F3B47-D624-8324-EBCE-21BD0DC9BE23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BC0F008-58CF-5D22-84F7-7F1491DAB29D" name="kunjungan_Pasien_FK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>BA51A710-9825-1022-B2B8-392F0CDE95C3</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95B04A46-A22A-FC7E-FEE5-684D699D3AC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="984FD422-11CA-BCBC-DCE8-6D44E452359E" name="kunjungan_Perawat_FK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>3C5FCA25-B191-7379-6A95-937506A03CA9</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="408A41D4-148B-27F9-985F-5CFAA5B9BF22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C181E871-6C34-A673-6224-F22BEF001CC4" name="kunjungan_Ruang_FK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>F66CDCC8-76B2-83EB-9A52-CB7F2A4892D0</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A55007EF-6359-188A-D378-012ABF314E3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

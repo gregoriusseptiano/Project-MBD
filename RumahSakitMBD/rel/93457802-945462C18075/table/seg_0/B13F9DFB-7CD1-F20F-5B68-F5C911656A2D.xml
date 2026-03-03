@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B13F9DFB-7CD1-F20F-5B68-F5C911656A2D" name="Pasien">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>CD885418-56FE-688B-92B9-6F3B00EBCA58</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIK" id="528A8DCE-8C65-0B8F-7582-24C038DE0030">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>6A382C6F-ABEC-436E-6CEC-012AEFA8C4E4</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="803D8453-A57C-F5E5-2AF6-35C20C9C7B24">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>3E6AA413-8221-3CB5-8A42-641C8124585F</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jenis_kelamin" id="5D1943BD-2738-6729-4548-5358AD7A216E">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>8A936C0A-A178-7595-1269-022700DCA8EF</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pekerjaan" id="97479A2F-9DA1-E385-040E-F6E440EC8993">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>518012B3-44E2-F47C-1678-710D157905CD</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tempat_lahir" id="51D3EF6E-4DDF-1603-4B92-9D11E8218393">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>BFF8DB68-B8B8-C0B7-85E4-29A5D41F1A8E</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_lahir" id="3755AE30-215C-AF34-3A2E-12E0E014E100">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>6CC1E91C-575A-616C-45A6-7D01AE605653</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nomor_HP" id="0A851FC6-0E9E-FA4C-4EB5-093603A79382">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>FA681A22-8EC0-2CDE-7AD7-AEAD6BE5C605</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="0A8FF5E2-61B1-FA65-11AA-22CEF040A2CD">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>28C3B6D0-1CAF-2E78-6111-5962622F7B6F</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_daftar" id="7E301511-5762-F80C-A1F2-61775E70EF5F">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>5F55EBC0-31E0-E458-3198-2A144521459C</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umur" id="60403D19-2DE5-620C-1E21-325F9090E936">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 09:58:49 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED4B1503-9D8F-0C8B-2489-F7CCCA40C9DC" name="Pasien_PK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>0277C28F-F22E-6580-7C84-AAAA32B4EBC0</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="528A8DCE-8C65-0B8F-7582-24C038DE0030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5686362B-132B-2EAC-4DD1-C7712BEFE465" name="Pasien__UN">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-27 01:14:41 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A851FC6-0E9E-FA4C-4EB5-093603A79382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A290CF5-AA4B-B989-82EF-3ACF4503BA64" name="Perawat">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>A62A703C-76E3-32C4-CAA4-D10AF33A7E15</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2CCF506E-8FDB-80E5-D962-E98E5DFFAA78">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>D9156DB8-7284-35F0-A243-87935F81612B</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="D2D6315F-64A6-5F59-EA10-E26120DFF307">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>BC68BD86-DDE7-FA83-C8B5-6BF1FCCB2DC6</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jenis_Kelamin" id="4CA01B85-C922-C5F8-82A1-9C243D80208F">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>62D604CA-0E69-AF4C-C69A-3B02D46E32C0</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nomor_HP" id="37E8F3EC-6FCF-DE3F-735D-32F1C9057153">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>17B5331E-BBB5-CDF9-921F-CFB630457228</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="9FEB46F0-8523-FE61-D4D5-334E92BDC27B">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>5F9D3901-7EEA-6FA5-AD1A-D6469C27C3AD</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E48781C4-9FCD-3ADF-20F4-1FF7609882E1" name="Perawat_PK">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-24 06:17:29 UTC</createdTime>
+<generatorID>9FD4DB7A-D2CC-7BCD-47D0-AA44DE67EB54</generatorID>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCF506E-8FDB-80E5-D962-E98E5DFFAA78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C7344AF-CE70-E1F2-A58A-170A50160D33" name="Perawat__UN">
+<createdBy>Legion</createdBy>
+<createdTime>2026-02-27 01:15:04 UTC</createdTime>
+<ownerDesignName>RumahSakitMBD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E8F3EC-6FCF-DE3F-735D-32F1C9057153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
